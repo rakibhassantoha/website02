@@ -1,0 +1,290 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif !important;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif !important;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*******************header section start**********************/
+.header-section{
+	width: 100%;
+	background: #F0FFF0;
+}
+.menu{
+	width: 100%;
+}
+.menu .navbar-nav .nav-item .nav-link{
+	font-size: 14px;
+	font-weight: 600;
+	color: #000;
+	margin: 0px 0px 0px 25px;
+
+}
+.menu .navbar-nav .nav-item .nav-link:hover, .menu .navbar-nav .nav-item .nav-link:focus{
+	color: #21B573 !important;
+}
+.menu .navbar-nav .nav-item .btn-success{
+	padding: 8px 20px;
+	border-radius: 35px;
+	margin: 0px 0px 0px 25px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+	background: #21B573;
+	border: 1px solid #21B573;
+	transition: 1s;
+} 
+.menu .navbar-nav .nav-item .btn-success:hover, .menu .navbar-nav .nav-item .btn-success:focus{
+	color: #21B573;
+	background: transparent;
+	border: 1px solid #21B573;
+}
+.banner{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-banner {
+    width: 62%;
+    padding: 40px 30px 0px;
+}
+.inner-banner h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FD511A;
+}
+.inner-banner h1 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #000;
+    margin: 0px 0px 20px;
+}
+.inner-banner h1 span {
+    color: #21B573;
+}
+.inner-banner p {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px 0px 20px 0px;
+    color: #000;
+    line-height: 24px;
+}
+.inner-banner .btn-success {
+    padding: 12px 40px;
+    border-radius: 35px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background: #21B573;
+    border: 1px solid #000;
+    transition: 1s;
+    text-transform: capitalize;
+}
+.inner-banner .btn-success:hover, .inner-banner .btn-success:focus{
+	color: #21B573;
+    background: transparent;
+    border: 1px solid #21B573;
+}
+/*******************header section End**********************/
+
+/*******************featute section start**********************/
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+}
+.feature .inner-feature{
+	width: 100%;
+	padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+	background: #F0FFF0;
+}
+.feature .inner-feature:hover, .feature .inner-feature:focus{
+	background: #ffffff;
+	box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+}
+.feature .inner-feature img{
+	width: 70px;
+	height: 85px;
+	margin: 0px 0px 20px;
+}
+.feature .inner-feature h4{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	color: #000;
+	margin: 0px;
+}
+.feature .inner-feature p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #585859;
+	margin: 0px;
+}
+
+/*******************header section End**********************/
+
+/*******************online section start**********************/
+.online-section{
+	width: 100%;
+	padding: 10px 0px;
+}
+.online-section h1 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0px 0px 40px 0px;
+    margin: 0px 0px 0px;
+}
+.online-section .card{
+	padding: 20px;
+	border-radius: 15px;
+	background: #fff;
+	box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
+	border: 0px solid #251532;
+
+}
+.online-section .card .card-body .card-title {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #000;
+    margin: 10px 0px 0px 0px;
+}
+.online-section .card .card-body .card-text {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #585859;
+    margin: 0px 0px 20px;
+    padding: 0px 0px 10px;
+}
+.online-section .card .card-body .btn-success {
+    padding: 12px 30px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: #21B573;
+    border: 1px solid #000;
+    transition: 1s;
+    text-transform: capitalize;
+}
+.online-section .card .card-body .btn-success:hover, .online-section .card .card-body .btn-success:focus{
+	color: #21B573;
+    background: transparent;
+    border: 1px solid #21B573;
+}
+.online-section .icons-text {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #585859;
+    margin: 30px 0px 0px;
+}
+.online-section .text-right {
+    text-align: right;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #585859;
+    margin: 30px 0px 0px;
+}
+.online-section .icons-text .icons{
+	width: 25px;
+}
+/*******************online section End**********************/
+
+/*******************testimonial section start**********************/
+.testimonial{
+	width: 100%;
+	padding: 30px 0px;
+}
+.testimonial h1 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 8px 0px 40px 0px;
+    margin: 10px 0px 0px;
+}
+.testimonial img{
+	width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+.testimonial p{
+	font-size: 14px;
+	line-height: 24px;
+	margin: 20px 0px;
+	color: #000000;
+}
+
+/*******************testimonial section End**********************/
+
+/*******************footer section start**********************/
+.footer{
+	width: 100%; 
+	padding: 80px 0px 20px;
+	background: #282531;
+}
+.footer p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+}
+
+.footer ul{
+	padding: 0px;
+	margin: 0px;
+}
+.footer ul li{
+	list-style: none;
+	display: block;
+}
+.footer ul li a{
+	font-size: 14px;
+	display: block;
+	text-decoration: none;
+	line-height: 24px;
+	color: #fff;
+	margin: 0px 0px 10px 0px;
+}
+
+.footer ul li .active{
+	font-weight: 800;
+	font-size: 16px;
+
+}
+.copyright{
+	width: 100%;
+	padding: 80px 0px 0px;
+}
+.copyright p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+	text-align: center;
+}
+.copyright p a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+}
+
+/*******************footer section End**********************/
